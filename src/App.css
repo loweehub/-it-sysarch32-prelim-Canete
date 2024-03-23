@@ -1,0 +1,38 @@
+/* app.css */
+
+.card {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #A51828;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-details {
+  margin-top: 10px;
+}
+body {
+background-color: #541B2E;
+
+}
+button {
+  color: #A51828;
+  box-shadow: inset;
+}
+h1 {
+  font-style: italic;
+  color: aliceblue;
+}
+p{
+  color:white;
+}
+h2 {
+  color:white;
+}
