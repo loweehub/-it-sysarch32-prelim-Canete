@@ -36,3 +36,29 @@ p{
 h2 {
   color:white;
 }
+/* Pokedex.css */
+.pokemon-container {
+  width: calc(20% - 10px);
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.pokemon-container:hover {
+  transform: scale(1.1); /* Grow the image by 10% when hovered */
+}
+
+.pokedex-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.pokemon-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
